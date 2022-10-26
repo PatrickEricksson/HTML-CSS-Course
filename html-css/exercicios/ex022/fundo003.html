@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Fundo 03</title>
+    <title>Posição dos Fundos</title>
     <style>
-        body {
-            background-image: url('imagens/wallpaper003.jpg');
-            background-repeat: no-repeat;
+        div.bloco {
+            background-image: url('imagens/wallpaper002.jpg');
+            height: 100px;
+            border: 1px solid black;
+            margin: 5px;
+            border-radius: 10px;
         }
 
-        h1 {
-            color: black;
-            background-color: white;
+        div#q1 {
+            background-position: left top;
         }
 
-        h2 {
-            color: brown;
-            background-color: white;
+        div#q2 {
+            background-position: left center;
         }
 
+        div#q3 {
+            background-position: right bottom;
+        }
+
+        div#q4 {
+            background-position: center center;
+        }
     </style>
 </head>
 <body>
-    <h1>Teste de Fundo</h1>
-    <p>Vamos testar o fundo 3</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio ducimus ullam veritatis atque earum ipsum optio possimus deleniti! Ducimus sapiente labore libero atque facilis dolorum recusandae fugiat vitae laudantium?</p>
-    <h2>Testamos novamente o arquivo</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, recusandae quo ipsa veniam magni autem commodi dolor quam perferendis facilis animi? Voluptas nobis reprehenderit deserunt numquam modi praesentium ipsa eaque!</p>
-</body>
+   <div class="bloco" id="q1">
+
+   </div>
+   <div class="bloco" id="q2">
+
+   </div>
+   <div class="bloco" id="q3"> 
+
+   </div>
+   <div class="bloco" id="q4">
+
+   </div>
 </html>
